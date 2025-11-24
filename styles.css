@@ -19,3 +19,8 @@
     padding: 0; /* Rimuove il padding predefinito da tutti gli elementi(TAG html) */
     box-sizing: border-box; /* Include padding e bordo nel calcolo della larghezza/altezza finale di un TAG */
 }
+.header {
+    padding: 10px 30px;
+    border-bottom: 1px solid black; /* Linea sottile */
+}
+
