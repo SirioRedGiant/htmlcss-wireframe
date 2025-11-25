@@ -44,7 +44,7 @@ footer {
 
 /* Il contenitore principale che centra il contenuto */
 .box { 
-    max-width: 600px;
+    max-width: 512px;
     margin: 20px auto; /* Centra il contenitore orizzontalmente */
     padding: 0 10px;
 }
