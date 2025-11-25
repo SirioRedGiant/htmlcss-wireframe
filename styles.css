@@ -43,6 +43,7 @@ footer {
 }
 
 /* Il contenitore principale che centra il contenuto */
+/* TODO chiedere come usare le width e per non fissare le dimensioni degli elementi */
 .box { 
     max-width: 512px;
     margin: 20px auto; /* Centra il contenitore orizzontalmente */
