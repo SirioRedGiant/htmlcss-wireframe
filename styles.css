@@ -19,8 +19,48 @@
     padding: 0; /* Rimuove il padding predefinito da tutti gli elementi(TAG html) */
     box-sizing: border-box; /* Include padding e bordo nel calcolo della larghezza/altezza finale di un TAG */
 }
-.header {
-    padding: 10px 30px;
-    border-bottom: 1px solid black; /* Linea sottile */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
 }
 
+.header, footer {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+/* Il contenitore principale che centra il contenuto */
+.box { 
+    max-width: 600px;
+    margin: 20px auto; /* Centra il contenitore orizzontalmente */
+    padding: 0 10px;
+}
+
+/* Lo stile per le singole "card" (gli article) */
+.card {
+    border: 1px solid #000; /* Bordo nero */
+    padding: 15px;
+    margin-bottom: 20px; /* Spazio tra le card */
+}
+
+h1, h2, p {
+    margin: 0 0 10px 0; /* Rimuove i margini predefiniti e aggiunge un margine inferiore */
+}
+
+p {
+    font-size: 0.9em;
+    color: #555;
+}
